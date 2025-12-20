@@ -1,42 +1,30 @@
 new WOW().init();
 
 new VenoBox({
-  selector: ".my-image-links",
+  selector: '.my-image-links',
   numeration: true,
   infinigall: true,
   share: true,
-  spinner: "rotating-plane",
+  spinner: 'rotating-plane',
 });
 
-// /*PRELOADER JS*/
-// $(window).load(function () {
-//   $(".loader_wrap").fadeOut();
-//   $(".preloader").delay(350).fadeOut("slow");
-// });
-// /*END PRELOADER JS*/
+// scrool btn
+const scrollBtn = document.getElementById('scrollTopBtn');
 
-// $("a").on("click", function (e) {
-//   var anchor = $(this);
-//   $("html, body")
-//     .stop()
-//     .animate(
-//       {
-//         scrollTop: $(anchor.attr("href")).offset().top - 50,
-//       },
-//       1500
-//     );
-//   e.preventDefault();
-// });
+// scroll করলে button show/hide
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 300) {
+    scrollBtn.classList.add('show');
+  } else {
+    scrollBtn.classList.remove('show');
+  }
+});
 
-// $(window).on("scroll", function () {
-//   if ($(this).scrollTop() > 100) {
-//     $(".main_header").addClass("sticky_menu");
-//   } else {
-//     $(".main_header").removeClass("sticky_menu");
-//   }
-// });
-// $(document).on("click", ".navbar-collapse.in", function (e) {
-//   if ($(e.target).is("a") && $(e.target).attr("class") != "dropdown-toggle") {
-//     $(this).collapse("hide");
-//   }
-// });
+// button click → smooth scroll top
+scrollBtn.addEventListener('click', (e) => {
+  e.preventDefault();
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth',
+  });
+});

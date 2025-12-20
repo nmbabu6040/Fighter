@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="description" content="This site is govt. Administrative site" />
     <meta name="keywords" content="army, military, administrive" />
-    <title>Project 49 Fighter</title>
+    <title>Fighter || Gallery</title>
     <!-- site icon part  -->
     <link rel="shortcut icon" href="images/favicon.jpg" />
 
@@ -67,10 +67,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                  <a
-                    class="nav-link active"
-                    aria-current="page"
-                    href="index.html"
+                  <a class="nav-link" aria-current="page" href="index.html"
                     >Home</a
                   >
                 </li>
@@ -81,7 +78,7 @@
                   <a class="nav-link" href="services.html">Service</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="gallery.html">Gallery</a>
+                  <a class="nav-link active" href="gallery.html">Gallery</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="team.html">Team</a>
@@ -347,12 +344,12 @@
     <script src="js/jquery-3.7.1.min.js"></script>
 
     <script>
-      const topmenu = document.querySelector(".topmenu");
-      window.addEventListener("scroll", () => {
+      const topmenu = document.querySelector('.topmenu');
+      window.addEventListener('scroll', () => {
         if (window.scrollY > 0) {
-          topmenu.classList.add("scrollmenu");
+          topmenu.classList.add('scrollmenu');
         } else {
-          topmenu.classList.remove("scrollmenu");
+          topmenu.classList.remove('scrollmenu');
         }
       });
     </script>
@@ -361,7 +358,7 @@
     <script src="js/counterup.js"></script>
     <script>
       $(document).ready(function () {
-        $(".counter").counterUp();
+        $('.counter').counterUp();
       });
     </script>
 
@@ -369,28 +366,28 @@
     <script src="js/isotope.pkgd.min.js"></script>
 
     <script>
-      $(window).on("load", function () {
-        var $grid = $(".grid");
+      $(window).on('load', function () {
+        var $grid = $('.grid');
 
         // Wait until all images are loaded, then initialize isotope
         $grid.imagesLoaded(function () {
           $grid.isotope({
-            itemSelector: ".grid-item",
-            layoutMode: "fitRows",
+            itemSelector: '.grid-item',
+            layoutMode: 'fitRows',
           });
         });
 
         // Filter buttons
-        $(".filters-button-group").on("click", "li", function () {
-          var filterValue = $(this).attr("data-filter");
+        $('.filters-button-group').on('click', 'li', function () {
+          var filterValue = $(this).attr('data-filter');
           $grid.isotope({ filter: filterValue });
-          $(".filters-button-group li").removeClass("is-checked");
-          $(this).addClass("is-checked");
+          $('.filters-button-group li').removeClass('is-checked');
+          $(this).addClass('is-checked');
         });
 
         // Relayout when each image loads (extra stability)
         $grid.imagesLoaded().progress(function () {
-          $grid.isotope("layout");
+          $grid.isotope('layout');
         });
       });
     </script>
@@ -410,7 +407,7 @@
     <!-- owl carousel js link start  -->
     <script src="js/owl.carousel.min.js"></script>
     <script>
-      $("#testSlider").owlCarousel({
+      $('#testSlider').owlCarousel({
         loop: true,
         margin: 10,
         nav: false,
