@@ -1,42 +1,43 @@
-# 🥊 Fighter Project
+# Fighter – Gym & Fitness Website
 
-Welcome to the **Fighter** project! This is a practice repository where I am exploring web development concepts, Git workflows, and project structures.
+Creative Army, gym and fitness website UI built with a bold and energetic design style.
 
-## 🎯 Project Overview
-This project is a clone of the original "Fighter" repository. My primary goal for working on this project is to:
-- Practice **Git & GitHub** commands (cloning, branching, and pushing).
-- Understand the **Folder Structure** of web-based projects.
-- Experiment with **HTML/CSS/JS/BOOTSTRAP** by modifying and adding new features.
-- Improve my ability to read and understand existing codebases.
+---
 
-## 🛠️ Tech Stack
-This project is built using:
-* **HTML5** - For structured content.
-* **CSS3** - For styling and layout.
-* **JavaScript** - For interactivity (if applicable).
-* **Bootstrap
+## 📌 Project Overview
+This project showcases a **army, gym / fitness website layout** focusing on strong visuals, clear sections, and responsive behavior.
 
-## 🚀 How to Run Locally
-To get this project running on your computer, follow these steps:
+---
 
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/nmbabu6040/fighter.git](https://github.com/nmbabu6040/fighter.git)
+## 🛠️ Technologies Used
+- HTML5  
+- CSS3  
+- Bootstrap 5  
+- JavaScript  
+- jQuery  
 
-2. **Navigate to the folder:**
-```bash
-cd fighter
+---
 
-3. **Open the project:**
-Simply open the `index.html` file in your favorite web browser.
+## ✨ Features
+- Fitness-focused UI design  
+- Responsive grid layout  
+- Call-to-action sections  
+- Interactive elements  
 
-## 👨‍💻 About Me
+---
 
-I am an aspiring Web Developer who loves building and experimenting with new projects. I am currently focusing on mastering the MERN stack and improving my problem-solving skills.
-* **GitHub:** [@nmbabu6040](https://www.google.com/search?q=https://github.com/nmbabu6040)
-> **Disclaimer:** This project was cloned for educational and practice purposes. All Credits goes to the ThemeForest Market Place.
+## 🌐 Live Demo
+👉 https://fighter-ruby.vercel.app
 
-### **Live Project Link here below:**
-** (https://fighter-ruby.vercel.app/)
+---
 
-Thanks to all.
+## 📖 Note
+⚠️ This is a **practice project** built to improve frontend design skills.  
+The UI idea was inspired by fitness websites, but **all code was written by me from scratch**.
+
+---
+
+## 📬 Author
+**N M Babu**  
+Frontend Web Developer  
+GitHub: https://github.com/nmbabu6040
